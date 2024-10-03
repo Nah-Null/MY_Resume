@@ -45,11 +45,12 @@
     border-radius: 10px;
 }                           
 .header img {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    margin-bottom: 10px;
+    width: 400px; /* ใช้ auto เพื่อให้ปรับตามสัดส่วนของภาพ */
+    height: 400px; /* ตั้งค่าเฉพาะความสูง */
+    border-radius: 50%; /* ใช้ 50% เพื่อให้ภาพเป็นวงกลม */
+    object-fit: cover; /* ครอบคลุมพื้นที่และคงสัดส่วน */
 }
+
 .header h1 {
     font-size: 28px;
     margin-bottom: 5px;
