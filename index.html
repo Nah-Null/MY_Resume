@@ -9,68 +9,97 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Button.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">  
-
+    <link rel="stylesheet" href="n-b.css">
     <style>
-  .navbar {
-    background-color: #22b2e1;
-  }
-  .navbar-brand {
-    color: #f8f9fa;
-    font-weight: bold;
-    font-size: 24px;
-  }
-  .navbar-nav .nav-link {
-    color: #f8f9fa;
-    margin-right: 15px;
-  }
-  .navbar-nav .nav-link:hover {
-    color: #ffc107;
-  }
-  /* h1 {
-    color: #343a40;
-    font-size: 48px;
-  } */
-  .container {
-    margin-top: 50px;
-  }
-    </style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+      </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
 
 <!-- Navigation Menu -->
-<nav class = "navbar navbar-expand-lg ">
-  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
+<nav class = "navbar navbar-expand-lg" style="height: 70px;"> 
+  <!-- <nav class="nav_bar navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3_h"></div>
+    <div class="bar4"></div>
+  </nav> -->
+
+  <nav style="border: 0cap;" class="nav_bar navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <input hidden="" class="check-icon" id="check-icon" name="check-icon" type="checkbox">
+      <label class="hamburger">
+        <input type="checkbox" />
+        <svg viewBox="0 0 32 32">
+          <path
+            d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22"
+            class="line line-top-bottom"
+          ></path>
+          <path d="M7 16 27 16" class="line"></path>
+        </svg>
+      </label>
+      
+  </nav>
+  
+
  <ul class="navbar-nav ms-2">
   <img src = "profile.png" width="50" height="50" alt="">
   </ul>
   <ul class="navbar-nav ms-2">
     <a class="navbar-brand" href="">Resume</a>
   </ul>
- <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-   <ul class = "navbar-nav ms-auto  ">
-     <li class = "nav-item">
+
+ <div style="margin: 2%;" class="collapse navbar-collapse" id="navbarTogglerDemo01">
+   <ul class = "navbar-nav ms-auto" >
+    <li class="nav-item dropdown navbar_a">
+      <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Education
+      </a>
+      <ul class="dropdown-menu navbar_b">
+        <li>
+          <a href="http://pim.ac.th" class="menu-link">
+              <img src="Logo_PIM.png" alt="PIM" class="bb" style="margin-top: 10px;">
+              <p>Panyapiwat Institute of Management</p>
+          </a>
+      </li>  
+      
+      <li>
+          <a href="https://www.prakan.ac.th/" class="menu-link" >
+              <img src="sp.gif" alt="SP" class="bb" style="margin-top: 10px;">
+              <p>Samutprakan School</p>
+          </a>
+      </li>
+              
+      <li>
+          <a href="https://raphael.ac.th/" class="menu-link">
+              <img src="St.png" alt="St" class="bb" style="margin-top: 10px;">
+              <p>St. Raphael School</p>
+          </a>
+      </li>
+      
+      </ul>
+    </li>
+     <li class = "nav-item navbar_a">
         <a class = "nav-link" href="https://nah-null.github.io/certificate/">Certifications</a> 
      </li>
-      <li class = "nav-item">
+      <li class = "nav-item navbar_a">
         <a class = "nav-link" href="https://github.com/Nah-Null/Project_Amonpuwit">Github</a> 
-     </li>
-      <li class = "nav-item">
-        <a class = "nav-link" href="">Download</a> 
      </li>
  </ul>
  </div>
 </nav> 
+
+
 <div class="container">
   <div class="header">
     <img src="me2.jpg" alt="Profile Picture">
     <h1>Amonpuwit Thitaphattharaphong</h1>
-    <p class="header h1">
-        Phone: 0917270032 | Email: pgthman@gmail.com <br>
-        Address: 1614/678
-    </p>
+    <h3>
+      <em class="ET1">Faculty <em class="ET2">of</em> Engineering</em>
+    </h3>
+    <h3><em class="DIT">Department of Digital and Information Technology</em></h3>
 </div>
 
 <div id="career-objective" class="section">
@@ -156,5 +185,6 @@
     </div>
 </div>
 </div>
+<script src="app.js"></script>
 </body>
 </html>

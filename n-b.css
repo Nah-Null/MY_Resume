@@ -1,0 +1,62 @@
+.navbar {
+    background-color: #22b2e1;
+  }
+  .navbar-brand {
+    font-family: "Roboto Condensed", sans-serif;
+    color: #f8f9fa;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .navbar-nav .nav-link {
+    color: #f8f9fa;
+    margin-right: 15px;
+  }
+  .navbar-nav .nav-link:hover {
+    color: #ffc107;
+  }
+  /* h1 {
+    color: #343a40;
+    font-size: 48px;
+  } */
+  .container {
+    margin-top: 50px;
+  }
+
+  .navbar_a {
+    padding: 8px 20px;       /* ลด padding เพื่อให้ปุ่มเล็กลง */
+    width: 15%;              /* ลดความกว้าง */
+    max-width: 200px;        /* ลดความกว้างสูงสุด */
+    min-width: 150px;        /* ปรับขนาดความกว้างขั้นต่ำ */
+    font-size: 1rem;         /* ลดขนาดตัวอักษร */
+    background-color: #c74c4c;
+    border-radius: 20px;     /* ลดขอบมนให้เล็กลง */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    margin: 10px 1%;
+  }
+
+  .navbar_b {
+    border: 0px;
+    padding: 0px;
+    width: 100%;
+    max-width: 100%;         /* ใช้ความกว้างสูงสุดเพื่อให้เมนูยืดหยุ่น */
+    background-color: #e4cfcf;
+    border-radius: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+    margin: auto;
+    justify-content: center; /* จัดให้อยู่ตรงกลาง */
+    flex-wrap: wrap;         /* ให้บรรทัดใหม่เมื่อขนาดพื้นที่น้อยลง */
+}
+.bb {
+  margin-bottom: 10%;
+  margin: auto;
+  width: 30%;
+  height: 30%;
+}
+
+
+
+  
