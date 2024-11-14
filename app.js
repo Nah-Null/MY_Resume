@@ -1,3 +1,4 @@
-pin => {
-    <link rel="stylesheet" href="http://pim.ac.th"></link>
+function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
 }

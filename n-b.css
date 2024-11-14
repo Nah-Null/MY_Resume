@@ -28,9 +28,9 @@
     max-width: 200px;        /* ลดความกว้างสูงสุด */
     min-width: 150px;        /* ปรับขนาดความกว้างขั้นต่ำ */
     font-size: 1rem;         /* ลดขนาดตัวอักษร */
-    background-color: #c74c4c;
+    background-color: #22b2e1;
     border-radius: 20px;     /* ลดขอบมนให้เล็กลง */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); */
     color: white;
     text-align: center;
     margin: 10px 1%;

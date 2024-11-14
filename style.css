@@ -125,9 +125,48 @@ p, li {
     color: rgb(80, 224, 240);
 }
 
+.PIM{
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+    color: rgb(14, 222, 14);
+}
+
 .menu-link {
     text-decoration: none;
     color: inherit;
 }
 
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+}
 
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content a {
+    color: #00aced;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.footer-content a:hover {
+    color: #fff;
+}
+
+a{
+    padding-left: 0.1%;
+}
+
+.instagram-icon svg {
+    fill: #b12929; /* สีเริ่มต้น */
+    transition: fill 0.3s; /* เพิ่มการเปลี่ยนสีแบบนุ่มนวล */
+}
+
+.instagram-icon:hover svg {
+    fill: #E1306C; /* สี Instagram เมื่อ hover (สามารถเปลี่ยนเป็นสีที่ต้องการได้) */
+}
